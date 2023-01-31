@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Numérico</h1>
+        <form id="form-numero"> 
+            <input type="number" id="valor-a" required placeholder="Campo A" />
+            <input type="number" id="valor-b" required placeholder="Campo B" />
+            <p class="negative-message">
+                Valor do campo B deve ser maior que o valor do campo A 
+            </p>
+            <button id="conferir" type="submit">CONFERIR</button>
+        </form>
+        <p class="positive-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
